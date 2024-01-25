@@ -32,7 +32,7 @@ spec:
       containers:
       - name: server
         image: adservice:v1
-        ports:
+        ports: monalipanchal4570/adservice:v1.1.1
         - containerPort: 9555
         env:
         - name: PORT

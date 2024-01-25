@@ -30,7 +30,7 @@ spec:
       - name: deploy-pull-harbor
       containers:
       - name: server
-        image: shippingservice:v1
+        image: monalipanchal4570/shippingservice:v1.1.1
         ports:
         - containerPort: 50051
         env:
