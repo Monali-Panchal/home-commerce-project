@@ -31,8 +31,8 @@ spec:
       - name: deploy-pull-harbor
       containers:
       - name: server
-        image: adservice:v1
-        ports: monalipanchal4570/adservice:v1.1.1
+        image: monalipanchal4570/adservice:v1.1.1
+        ports:
         - containerPort: 9555
         env:
         - name: PORT
